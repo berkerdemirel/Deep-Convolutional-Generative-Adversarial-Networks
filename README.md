@@ -2,14 +2,14 @@
 
 A Generative Adversarial Network (GAN) is a machine learning technique in the set of generative models. Given a training set, networks can learn the probability distribution of classes and generate new data using those statistics. The method is applied in a game-theoretical manner. The proposed structure contains two models. The generative model can be thought of as analogous to a painter that learns how to paint from scratch, while the discriminator model can be thought of as a critic that guides the new learner to improve[1]. As time goes, both of them improve from each other.
 
-DCGAN is a variant of GANs that utilizes convolutional layers for feature extraction in the discriminator, and transposed convolution layers for image creation in the generator. In this repository, DCGAN is applied to CIFAR-10 [3], MNIST [4] and CelebA [5] datasets using PyTorch machine learning library.
+DCGAN is a variant of GANs that utilizes convolutional layers for feature extraction in the discriminator, and transposed convolution layers for image creation in the generator. In this repository, DCGAN is applied to CIFAR-10 [2], MNIST [3] and CelebA [4] datasets using PyTorch machine learning library.
 
 
 ## Methodology
 
 The aim of the generator is to take a high dimensional vector (z) that is randomly sampled from Gaussian distribution, and map into image space (G(z) = x). The discriminator is used to distinguish whether the discriminator input is real or generated. It outputs a value D(x) to estimate the chance that the input is real.
 
-The method that is proposed in Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks is adopted.
+The method that is proposed in Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks[1] is adopted.
 
 
 <p align="center">
@@ -87,3 +87,17 @@ All the experiments in the report are performed in NVIDIA GeForce GTX 850m, with
 
 <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_8_ship.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_9_truck.gif" width="275">
 
+
+
+## References
+
+[1]	Radford, A., Metz, L., & Chintala, S. (2015). Unsupervised representation learning with deep convolutional generative adversarial networks. arXiv preprint arXiv:1511.06434 .
+
+
+[2]	Krizhevsky, A. and Hinton, G. (2009). Learning multiple layers of features from tiny images. Technical report, University of Toronto
+
+
+[3]	LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278–2324.
+
+
+[4]	Susskind, J., Anderson, A., and Hinton, G. E. (2010). The Toronto face dataset. Technical Report UTML TR 2010-001, U. Toronto.
