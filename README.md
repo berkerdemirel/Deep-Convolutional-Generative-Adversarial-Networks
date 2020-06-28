@@ -13,7 +13,7 @@ The method that is proposed in Unsupervised Representation Learning with Deep Co
 
 
 <p align="center">
-  <img width="460" height="300" src=".images/dcgan_methodology.PNG">
+  <img width="460" height="200" src=".images/dcgan_methodology.PNG">
 </p>
 
 Using strided convolutions enables models to learn its own spatial downsampling deterministically, and batch normalization in addition to removing fully connected layers are for having a better gradient flow through the networks.
@@ -39,7 +39,7 @@ All the experiments in the report are performed in NVIDIA GeForce GTX 850m, with
 
 
 <p align="center">
-  <img width="275" height="275" src="celeba/celeba_gan/celeba.gif">
+  <img width="275" src="celeba/celeba_gan/celeba.gif">
 </p>
 
 
@@ -47,7 +47,7 @@ All the experiments in the report are performed in NVIDIA GeForce GTX 850m, with
 
 
 <p align="center">
-  <img width="275" height="275" src="mnist/mnist_gan/mnist.gif">
+  <img width="275" src="mnist/mnist_gan/mnist.gif">
 </p>
 
 
@@ -58,7 +58,7 @@ All the experiments in the report are performed in NVIDIA GeForce GTX 850m, with
 
 
 <p align="center">
-  <img width="275" height="275" src="cifar10/cifar10_gan/conv.gif">
+  <img width="275" src="cifar10/cifar10_gan/conv.gif">
 </p>
 
 
@@ -66,7 +66,7 @@ All the experiments in the report are performed in NVIDIA GeForce GTX 850m, with
 
 
 <p align="center">
-  <img width="275" height="275" src="cifar10/cifar10_gan/lin.gif">
+  <img width="275" src="cifar10/cifar10_gan/lin.gif">
 </p>
 
 
@@ -76,14 +76,14 @@ All the experiments in the report are performed in NVIDIA GeForce GTX 850m, with
 <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_0_plane.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_1_car.gif" width="275">
 
 
-<img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_0_bird.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_1_cat.gif" width="275">
+<img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_2_bird.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_3_cat.gif" width="275">
 
 
-<img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_0_deer.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_1_dog.gif" width="275">
+<img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_4_deer.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_5_dog.gif" width="275">
 
 
-<img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_0_frog.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_1_horse.gif" width="275">
+<img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_6_frog.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_7_horse.gif" width="275">
 
 
-<img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_0_ship.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_1_truck.gif" width="275">
+<img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_8_ship.gif" width="275"> <img src="cifar10/cifar10_gan/10_gens_10_discs_class_gifs/class_9_truck.gif" width="275">
 
