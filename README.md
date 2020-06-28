@@ -1,3 +1,4 @@
 # Deep-Convolutional-Generative-Adversarial-Networks
 
-![](celeba.gif)
+
+<img src=".celeba_gan/celeba.gif" width="275">
