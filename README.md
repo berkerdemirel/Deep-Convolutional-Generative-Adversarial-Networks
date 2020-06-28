@@ -13,7 +13,7 @@ The method that is proposed in Unsupervised Representation Learning with Deep Co
 
 
 <p align="center">
-  <img width="460" height="200" src=".images/dcgan_methodology.PNG">
+  <img width="460" height="175" src=".images/dcgan_methodology.PNG">
 </p>
 
 Using strided convolutions enables models to learn its own spatial downsampling deterministically, and batch normalization in addition to removing fully connected layers are for having a better gradient flow through the networks.
